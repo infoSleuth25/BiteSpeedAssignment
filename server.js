@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended : true}));
 
 app.get('/',(req,res)=>{
-    res.send('👁 Bitespeed Backend Task: Identity Reconciliation');
+    res.send('👁 Bitespeed Backend Task: Identity Reconciliations');
 })
 
 app.post('/identify', async(req, res) => {
