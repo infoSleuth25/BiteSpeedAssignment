@@ -17,7 +17,6 @@ const contactSchema = new mongoose.Schema({
     linkPrecedence : {
         type: String,
         enum: ['primary', 'secondary'],
-        required: true
     }
 },{
     timestamps : true
